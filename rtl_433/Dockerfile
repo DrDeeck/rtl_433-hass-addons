@@ -16,7 +16,7 @@ WORKDIR /build
 RUN git clone https://github.com/halfbakery/rtl_433/
 WORKDIR ./rtl_433
 
-ARG rtl433GitRevision=f28d838af7706084df6a830186439e555d3387ba
+ARG rtl433GitRevision=98d4e91352ddec780be32a6fb8699c48a3896137
 RUN git checkout ${rtl433GitRevision}
 WORKDIR ./build
 RUN cmake ..
