@@ -1,6 +1,6 @@
 ## [0.1.8.2] - 2022-01-25
 
-- Using pre-built docker image. Reduces backup size and installation time.
+- Using pre-built docker image. Reduces backup size and installation time. Probably, you'll have to reinstall addon.
 
 ## [0.1.8.1] - 2021-09-23
 

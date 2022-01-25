@@ -1,3 +1,11 @@
+## [0.1.2.3] - 2022-01-25
+
+- Using pre-built docker image. Reduces backup size and installation time. Probably, you'll have to reinstall addon.
+
+## [0.1.2.2] - 2021-11-30
+
+- Upstream merge
+
 ## [0.1.2.1] - 2021-09-23
 
 - Switched to modded rtl_433 version
