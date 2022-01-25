@@ -1,3 +1,7 @@
+## [0.1.8.2] - 2022-01-25
+
+- Using pre-built docker image. Reduces backup size and installation time.
+
 ## [0.1.8.1] - 2021-09-23
 
 - Switched to modded rtl_433 version
