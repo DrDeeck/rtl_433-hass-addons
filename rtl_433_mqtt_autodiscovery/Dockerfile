@@ -13,8 +13,8 @@ RUN python3 -m ensurepip && \
 RUN pip3 install --no-cache paho-mqtt
 
 # Clone rtl_433 repo and copy the latest tested version of the mqtt bridge script
-# (latest as of 09/23/2021)
-RUN curl -LO https://github.com/halfbakery/rtl_433/raw/f28d838af7706084df6a830186439e555d3387ba/examples/rtl_433_mqtt_hass.py && \
+# (latest as of 2024-10-22)
+RUN curl -LO https://raw.githubusercontent.com/daemongloom/rtl_433/refs/heads/master/examples/rtl_433_mqtt_hass.py && \
   chmod +x /rtl_433_mqtt_hass.py
 
 # Run script

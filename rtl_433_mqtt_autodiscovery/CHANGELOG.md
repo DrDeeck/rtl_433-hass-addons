@@ -1,3 +1,6 @@
+## [0.1.8.3] - 2024-10-22
+- Upstream update
+
 ## [0.1.8.2] - 2022-01-25
 
 - Using pre-built docker image. Reduces backup size and installation time. Probably, you'll have to reinstall addon.

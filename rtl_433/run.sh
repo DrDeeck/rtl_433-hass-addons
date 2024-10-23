@@ -1,5 +1,4 @@
-#!/usr/bin/env bashio
-
+#!/usr/bin/with-contenv bashio
 
 MQTT_HOST=$(bashio::config "mqtt_host")
 MQTT_PORT=$(bashio::config "mqtt_port")
@@ -11,3 +10,4 @@ OTHER_ARGS=""
 
 echo "Starting rtl_433"
 rtl_433 -F mqtt://$MQTT_HOST:$MQTT_PORT,user=$MQTT_USER,pass=$MQTT_PASS -F kv -r mqtt/rfraw:$TASMOTA_TOPIC
+
