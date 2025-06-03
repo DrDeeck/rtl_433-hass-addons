@@ -8,7 +8,7 @@
   "startup": "application",
   "init": "false",
   "boot": "auto",
-  "image": "DrDeeck/rtl_433-{arch}",
+  "image": "drdeeck/rtl_433-{arch}",
   "options": {
     "mqtt_host": "hassio",
     "mqtt_port": 1883,
