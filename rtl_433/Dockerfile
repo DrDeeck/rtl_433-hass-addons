@@ -1,6 +1,6 @@
 ARG BUILD_FROM
 FROM $BUILD_FROM as builder
-MAINTAINER daemongloom@gmail.com
+MAINTAINER null@null.null
 
 ENV LANG C.UTF-8
 
@@ -13,7 +13,7 @@ RUN apk add --no-cache --virtual .buildDeps \
     git
 
 WORKDIR /build
-RUN git clone https://github.com/daemongloom/rtl_433/
+RUN git clone https://github.com/DrDeeck/rtl_433/
 WORKDIR ./rtl_433
 
 WORKDIR ./build
